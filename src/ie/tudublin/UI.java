@@ -48,7 +48,7 @@ public class UI extends PApplet
 			
 			Colour c = new Colour(r,g,b);
 			
-			System.out.print(r);
+		//	System.out.print(r);
 		
 		}
 		
