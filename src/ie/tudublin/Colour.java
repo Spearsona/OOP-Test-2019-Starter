@@ -6,16 +6,16 @@ class Colour{
 
    
     Colour(int r, int g, int b){
-        this.r = r;
-        this.g = g;
-        this.b = b;
+      //this.r = r;
+       // this.g = g;
+        //this.b = b;
         
     }
 
     public String toString(int r, int g, int b){
         
         // If statements for each colour value and then return colour as string?
-        return String colour;
+        //return String colour;
     }
 
 
