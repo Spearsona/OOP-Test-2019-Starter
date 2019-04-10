@@ -67,12 +67,20 @@ public class UI extends PApplet
 	
 		float x = height / 4f;
 		float y = width / 4f;
+		float barWidth = x/5f;
 		//float hx = x + x/2f;
 		//float hy = y + y/2f;
 
 	//	System.out.println(x);
 
 		rect(x, y, 100, 100);
-		line(hx, hy, x + hx, y + hy);
+		line(x - x/4, y + y/4, x + x, y + y/4);
+
+		for(i=0; i < colours.size; i++)
+		{
+	//		float start = map(i, x, barWidth,  )
+
+		}
+
 	}
 }
