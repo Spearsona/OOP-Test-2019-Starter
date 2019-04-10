@@ -16,6 +16,7 @@ public class UI extends PApplet
 {	
 	Table table;
 	public ArrayList <Colour> colours = new ArrayList<Colour>();
+	public ArrayList <Resistor> resistors = new ArrayList<Resistor>();
 	
 	public void separate(int value)
 	{
