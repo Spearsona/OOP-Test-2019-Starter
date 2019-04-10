@@ -16,9 +16,9 @@ public class UI extends PApplet
 		int hundreds = (value / 100);
 		int tens = (value - (hundreds * 100)) / 10;
 		int ones = value - ((hundreds * 100)  + (tens * 10));
-		print(hundreds + ",");
-		print(tens + ",");
-		println(ones);
+		//print(hundreds + ",");
+		//print(tens + ",");
+		//println(ones);
 	}
 
 	public void settings()
@@ -48,7 +48,7 @@ public class UI extends PApplet
 			
 			Colour c = new Colour(r,g,b);
 			
-			System.out.println(r);
+			System.out.print(r);
 		
 		}
 		
