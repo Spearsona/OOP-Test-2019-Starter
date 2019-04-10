@@ -1,3 +1,9 @@
+/*
+Name: Stephen Pearson
+Student Number: C17753589
+OOP test for drawing resistors 
+*/
+
 package ie.tudublin;
 
 import java.util.ArrayList;
@@ -67,18 +73,24 @@ public class UI extends PApplet
 	
 		float x = height / 4f;
 		float y = width / 4f;
-		float barWidth = x/5f;
+		//float barWidth = x/5f;
 		//float hx = x + x/2f;
 		//float hy = y + y/2f;
 
 	//	System.out.println(x);
 
-		rect(x, y, 100, 100);
+		rect(x, y, x/2f, y/2f);
 		line(x - x/4, y + y/4, x + x, y + y/4);
 
-		for(i=0; i < colours.size; i++)
+		for(int i=0; i < 4; i++)
 		{
-	//		float start = map(i, x, barWidth,  )
+			//float startPoint = map(i, x, barWidth,  )
+			line(x + (i *20), y  , x + (i*20), y + y/2);
+
+			//Fetch appropriate colour from Array list data
+			//Colour bar = colours.get(i);
+
+			//fill(bar.r, bar.g,bar.b);
 
 		}
 
