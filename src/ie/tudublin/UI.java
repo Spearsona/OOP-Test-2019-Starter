@@ -64,10 +64,11 @@ public class UI extends PApplet
 	}
 
 	public void drawResFrame(){
+	
 		float x = height / 4f;
 		float y = width / 4f;
-		float hx = x + (x/2f);
-		float hy = y + (y/2f);
+		//float hx = x + x/2f;
+		//float hy = y + y/2f;
 
 	//	System.out.println(x);
 
