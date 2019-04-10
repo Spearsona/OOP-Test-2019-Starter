@@ -46,7 +46,7 @@ public class UI extends PApplet
 			int g = row.getInt("g");
 			int b = row.getInt("b");
 			
-			Colour c = new Colour(rw);
+			Colour c = new Colour(r,g,b);
 			
 			System.out.println(r);
 		
