@@ -88,10 +88,12 @@ public class UI extends PApplet
 			//float startPoint = map(i, x, barWidth,  )
 			line(x + (i *20), y  , x + (i*20), y + y/2);
 
+			
 			//Fetch appropriate colour from Array list data
-			//Colour bar = colours.get(i);
-
+			//Resistor bar = colours.get(i);
+			
 			//fill(bar.r, bar.g,bar.b);
+			
 
 		}
 

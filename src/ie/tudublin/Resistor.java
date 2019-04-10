@@ -22,4 +22,8 @@ class Resistor extends PApplet
 
     }
 
+    public void renderResistor(){
+
+    }
+
 }
