@@ -23,7 +23,7 @@ public class UI extends PApplet
 
 	public void settings()
 	{
-		size(500, 800);
+		size(800, 800);
 		
 		//separate(381);
 		//separate(1);
@@ -56,6 +56,22 @@ public class UI extends PApplet
 	}
 	
 	public void draw()
-	{			
+	{	
+		//fill(255);
+		stroke(0);
+		drawResFrame();
+		
+	}
+
+	public void drawResFrame(){
+		float x = height / 4f;
+		float y = width / 4f;
+		float hx = x + (x/2f);
+		float hy = y + (y/2f);
+
+	//	System.out.println(x);
+
+		rect(x, y, 100, 100);
+		line(hx, hy, x + hx, y + hy);
 	}
 }
