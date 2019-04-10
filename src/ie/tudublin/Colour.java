@@ -5,19 +5,19 @@ class Colour{
     public int r, g, b;
 
    
-    Colour(int r, int g, int b){
+    public Colour(int r, int g, int b){
       //this.r = r;
        // this.g = g;
         //this.b = b;
         
     }
 
-    public String toString(int r, int g, int b){
+ /*   public String toString(int r, int g, int b){
         
         // If statements for each colour value and then return colour as string?
         //return String colour;
     }
-
+*/
 
     /**
      * @return the r
@@ -59,6 +59,20 @@ class Colour{
      */
     public void setB(int b) {
         this.b = b;
+    }
+
+    /**
+     * @return the colour
+     */
+    public String getColour() {
+        return colour;
+    }
+
+    /**
+     * @param colour the colour to set
+     */
+    public void setColour(String colour) {
+        this.colour = colour;
     }
      
 }
